@@ -1,0 +1,23 @@
+sprite:
+  name: "background"
+  pos: [960, 540]
+  file: "../ressources/Assets/Menu/background-default.png"
+  rotation: 0
+  scale: 1
+  origin: [960, 540]
+buttontristate:
+  name: "quit"
+  pos: [1700, 50]
+  scale: 1
+  origin: [0, 0]
+  rotation: 0
+  file: "../ressources/Assets/Menu/Button.png"
+  rect: [1105, 2615, 193, 180]
+text:
+  str: "Settings:"
+  name: "setting"
+  pos: [780, 350]
+  color: [0, 0, 0, 255]
+  spacing: 20
+  font: "../ressources/Assets/Menu/visitor.ttf"
+  size: 50

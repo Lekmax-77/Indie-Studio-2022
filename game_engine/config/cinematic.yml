@@ -1,0 +1,39 @@
+model:
+  name: "player"
+  pos: [0, 0, -1]
+  file: "../ressources/Assets/IQM/bomberman.iqm"
+  texture: "../ressources/Assets/Textures/bomberman.png"
+  scale: [0.01, 0.01, 0.01]
+  rotationAxis: [0, 1, 0]
+model:
+  name: "bomb"
+  pos: [-0.1, 1, 0]
+  scale: [0.5, 0.5, 0.5]
+  file: "../ressources/Assets/IQM/bomb.iqm"
+  texture: "../ressources/Assets/Textures/bomb.png"
+model:
+  name: "fire"
+  pos: [0, -0.5, 0]
+  scale: [0.2, 0.2, 0.2]
+  file: "../ressources/Assets/IQM/fire.iqm"
+  texture: "../ressources/Assets/Textures/fire.png"
+sprite:
+  name: "title"
+  pos: [300, 300]
+  scale: [0.5, 0.5]
+  file: "../ressources/Assets/Textures/title.png"
+sound:
+  name: "steps"
+  file: "../ressources/Assets/Sounds/step.mp3"
+sound:
+  name: "fall"
+  file: "../ressources/Assets/Sounds/fall.wav"
+sound:
+  name: "scream"
+  file: "../ressources/Assets/Sounds/scream.wav"
+sound:
+  name: "explosion"
+  file: "../ressources/Assets/Sounds/explosion.wav"
+sound:
+  name: "fire"
+  file: "../ressources/Assets/Sounds/fire.wav"

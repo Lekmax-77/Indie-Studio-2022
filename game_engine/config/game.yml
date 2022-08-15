@@ -1,0 +1,6 @@
+music:
+  name: "music"
+  file: "../ressources/Assets/Sounds/music.mp3"
+sound:
+  name: "set_bomb"
+  file: "../ressources/Assets/Sounds/set_bomb.mp3"

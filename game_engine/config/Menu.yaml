@@ -1,0 +1,43 @@
+sprite:
+  name: "background"
+  pos: [960, 540]
+  file: "../ressources/Assets/Menu/background-default.png"
+  rotation: 0
+  scale: 1
+  origin: [960, 540]
+sprite:
+  name: "frontground"
+  pos: [960, 540]
+  file: "../ressources/Assets/Menu/title(2).png"
+  rotation: 0
+  scale: 1
+  origin: [640, 360]  
+buttontristate:
+  name: "setting"
+  pos: [150, 150]
+  scale: 1
+  origin: [96, 90]
+  rotation: 0
+  file: "../ressources/Assets/Menu/Button.png"
+  rect: [-1, 4818, 193, 180]
+buttontexture:
+  name: "play"
+  pos: [1700, 900]
+  scale: 1
+  origin: [192, 90]
+  rotation: 0
+  file: "../ressources/Assets/Menu/play.png"
+buttontristate:
+  name: "quit"
+  pos: [1700, 50]
+  scale: 1
+  origin: [0, 0]
+  rotation: 0
+  file: "../ressources/Assets/Menu/Button.png"
+  rect: [1105, 2615, 193, 180]
+sound:
+  name: "clic"
+  file: "../ressources/Assets/Sounds/clic.ogg"
+music:
+  name: "music"
+  file: "../ressources/Assets/Sounds/music.mp3"

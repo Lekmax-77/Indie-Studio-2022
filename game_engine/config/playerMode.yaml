@@ -1,0 +1,83 @@
+sprite:
+  name: "background"
+  pos: [960, 540]
+  file: "../ressources/Assets/Menu/background-default.png"
+  rotation: 0
+  scale: 1
+  origin: [960, 540]
+buttontristate:
+  name: "quit"
+  pos: [1700, 50]
+  scale: 1
+  origin: [0, 0]
+  rotation: 0
+  file: "../ressources/Assets/Menu/Button.png"
+  rect: [1105, 2615, 193, 180]
+buttontexture:
+  name: "solo"
+  file: "../ressources/Assets/Menu/blue_button13.png"
+  pos: [1000, 300]
+  origin: [85, 25]
+  rotation: 0
+  scale: 4
+buttontexture:
+  name: "duo"
+  file: "../ressources/Assets/Menu/green_button13.png"
+  pos: [1000, 500]
+  origin: [85, 25]
+  rotation: 0
+  scale: 4
+buttontexture:
+  name: "trio"
+  file: "../ressources/Assets/Menu/yellow_button13.png"
+  pos: [1000, 700]
+  origin: [85, 25]
+  rotation: 0
+  scale: 4
+buttontexture:
+  name: "quad"
+  file: "../ressources/Assets/Menu/red_button10.png"
+  pos: [1000, 900]
+  origin: [85, 25]
+  rotation: 0
+  scale: 4
+text:
+  str: "Play Mode:"
+  name: "mode"
+  pos: [800, 150]
+  color: [0, 0, 0, 255]
+  spacing: 20
+  font: "../ressources/Assets/Menu/visitor.ttf"
+  size: 50
+text:
+  str: "Solo Mode:"
+  name: "text_solo"
+  pos: [750, 270]
+  color: [0, 121, 241, 255]
+  spacing: 20
+  font: "../ressources/Assets/Menu/visitor.ttf"
+  size: 50
+text:
+  str: "Duo Mode:"
+  name: "text_duo"
+  pos: [750, 470]
+  color: [0, 228, 48, 255]
+  spacing: 20
+  font: "../ressources/Assets/Menu/visitor.ttf"
+  size: 50
+text:
+  str: "Trio Mode:"
+  name: "text_trio"
+  pos: [750, 670]
+  color: [253, 249, 0, 255]
+  spacing: 20
+  font: "../ressources/Assets/Menu/visitor.ttf"
+  size: 50
+text:
+  str: "Quad Mode:"
+  name: "text_quad"
+  pos: [750, 870]
+  color: [230, 41, 55, 255]
+  spacing: 20
+  font: "../ressources/Assets/Menu/visitor.ttf"
+  size: 50
